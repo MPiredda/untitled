@@ -1,7 +1,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('./src/'))
+sys.path.insert(0, os.path.abspath("./src/"))
 html_theme = 'sphinx_rtd_theme'
 extensions = ['sphinx.ext.autodoc']
 
@@ -43,4 +43,9 @@ list1 = [1,2,3]
 list2 = [4,5,6]
 concatened = list1+list2
 print(list1,list2,concatened)
+
+
+
+
+
 

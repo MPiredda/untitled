@@ -1,10 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-np.random.seed(0)            # In order to have always the same matrix
+#  np.random.seed(0)            # In order to have always the same matrix
 
 # generate a random image (i.e., a matrix) with pixels in {0, 1, ..., 255}
-n_rows, n_cols = 10, 10
+n_rows, n_cols = 100, 100
 x = np.random.randint(0, 256, (n_rows, n_cols))
 print("Print random matrix: ")
 print(x)
@@ -38,6 +38,8 @@ plt.bar(values[:10], hist_values[:10])
 # plotting the full histogram
 plt.subplot(2, 1, 2)
 plt.bar(values, hist_values)
+
+plt.show()
 
 # what happens if you sample a larger image? How should the histogram look like?
 # ... TRY IT!
