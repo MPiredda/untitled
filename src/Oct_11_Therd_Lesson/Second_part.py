@@ -47,7 +47,6 @@ def plot10(digits):
         plot_digit(digits[k, :], k)
 
 
-
 def hist10(digits):
     plt.figure()
     for k in range(10):  # loop over subplots/classes
