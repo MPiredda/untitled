@@ -1,14 +1,16 @@
-.. Test documentation master file, created by
-   sphinx-quickstart on Wed Jul 15 19:59:55 2020.
+.. DioP documentation master file, created by
+   sphinx-quickstart on Mon Sep 14 17:39:00 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Test's documentation!
+Welcome to DioP's documentation!
 ================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
    :caption: Contents:
+
+   src
 
 
 
