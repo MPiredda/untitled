@@ -65,3 +65,4 @@ print('Test set shape: ', x_ts.shape, y_ts.shape)
 plot10(x_tr[:10, :], y_tr[:10])
 
 
+
