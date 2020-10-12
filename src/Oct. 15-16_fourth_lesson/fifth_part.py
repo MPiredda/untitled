@@ -28,7 +28,7 @@ def plot10(digits, labels=None):
     if digits.shape[0] != 10:
         raise ValueError("the input matrix does not have 10 rows!")
     plt.figure()
-    for k in range(10):  # loop over subplots/classes
+    for k in range(10):     # loop over subplots/classes
         plt.subplot(2, 5, k + 1)
         if labels is None:  # assume that k is the true label (0, 1, 2...)
             plot_digit(digits[k, :], k)
@@ -70,7 +70,10 @@ def fit(x, y):
 
 def predict(x, centroids):
     dist = euclidean_distances(x, centroids, squared=True)
+    print ("Dist and shape of dist:\n", dist,"\n", dist.shape)
+    print("Shape of x: \n", x.shape)
     y_pred = np.argmin(dist, axis=1)
+    print("y_pred: \n", y_pred)
     return y_pred
 
 
